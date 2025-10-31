@@ -38,7 +38,7 @@ It uses AI-powered computer vision to identify waste in real time and performs p
 - **Izuafa Abdulrafiu Braimah** – VUG/SEN/22/7708  
 - **Oke Emmanuel Olamide** – VUG/SEN/22/7035  
 - **Onoja Hillary Leonard** – VUG/SEN/22/7403  
-- **Ikenna Iheanaetu** – VUG/SEN/22/7788  
+- **Ikenna Iheanaetu** – VUG/SEN/22/7884  
 - **Ibrahim Rahmat** – VUG/SEN/22/8245  
 - **Obona Jesam Hope** - VUG/SEN/22/7005
 

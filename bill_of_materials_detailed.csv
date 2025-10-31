@@ -1,0 +1,82 @@
+Category,Item Name,Specifications,Quantity,Unit Price (USD),Total Price (USD),Supplier/Link,Notes
+Processing,Raspberry Pi 4 Model B,4GB RAM Quad-core 1.5GHz,1,55.00,55.00,Raspberry Pi Foundation / Amazon,"Main controller, choose 8GB for better AI performance"
+Processing,MicroSD Card,64GB Class 10 UHS-I,1,12.00,12.00,SanDisk / Kingston,"Pre-load with Raspberry Pi OS 64-bit"
+Processing,MicroSD Card Reader,USB 3.0,1,8.00,8.00,Generic,"For initial OS installation"
+
+Servos - Legs,MG996R Metal Gear Servo,13kg·cm torque @ 6V,18,8.00,144.00,TowerPro / HobbyKing,"Leg joints, check for metal gears"
+Servos - Gripper,MG90S Micro Servo,2.2kg·cm torque,2,5.00,10.00,TowerPro,"Gripper mechanism"
+Servos - Camera,SG90 Micro Servo,1.8kg·cm torque,2,3.00,6.00,Generic,"Pan-tilt camera mount"
+
+Servo Control,PCA9685 16-Channel PWM Driver,I2C interface 12-bit,2,12.00,24.00,Adafruit / Generic,"One for legs, one for gripper. Check I2C address"
+
+Vision,Raspberry Pi Camera Module V2,8MP Sony IMX219 sensor,1,25.00,25.00,Raspberry Pi Foundation,"Fixed focus, CSI interface"
+Vision,Camera Ribbon Cable Extension,30cm,1,5.00,5.00,Generic,"Optional if needed for mounting"
+
+Sensors - Distance,HC-SR04 Ultrasonic Sensor,2cm-4m range 40kHz,3,3.00,9.00,Generic,"Obstacle detection"
+Sensors - Proximity,E18-D80NK IR Sensor,3-80cm adjustable NPN,2,4.00,8.00,Generic,"Ground detection, close range"
+Sensors - IMU,MPU6050 Module,6-axis gyro+accel I2C,1,6.00,6.00,InvenSense / GY-521 Module,"Body orientation"
+Sensors - Optional,Force Sensitive Resistor FSR402,0.2-20kg,2,5.00,10.00,Interlink,"Gripper force sensing (optional)"
+
+Power - Battery,LiPo Battery 3S,11.1V 5000mAh 30C XT60,1,40.00,40.00,Turnigy / Zippy,"Check dimensions fit in chassis"
+Power - Charger,LiPo Balance Charger,IMAX B6 or similar,1,25.00,25.00,Generic,"Essential for safe charging"
+Power - Safety,LiPo Safety Bag,Fire-resistant storage,1,8.00,8.00,Generic,"Store and charge battery in this"
+Power - Converter,LM2596 Buck Converter 5V,3A adjustable DC-DC step-down,1,5.00,5.00,Generic,"For Raspberry Pi, set to 5.1V"
+Power - Converter,D24V50F6 Buck Converter 6V,5A high-current for servos,1,12.00,12.00,Pololu / Generic,"For servo power rail"
+Power - Regulator,AMS1117-3.3V LDO,1A linear regulator,1,1.00,1.00,Generic,"3.3V for sensors (if needed)"
+Power - Connector,XT60 Connector Pair,Male + Female 60A rating,2,2.00,4.00,Amass,"Battery connection"
+Power - Capacitor,Electrolytic Capacitor,4700µF 16V,2,1.50,3.00,Generic,"Servo power rail filtering"
+Power - Fuse,Blade Fuse Holder + 10A Fuse,Automotive style,1,3.00,3.00,Generic,"Main power protection"
+Power - Switch,Emergency Stop Button,Red mushroom NC 10A,1,3.00,3.00,Generic,"Safety cutoff"
+Power - Monitor,LiPo Voltage Alarm,2S-8S low voltage buzzer,1,3.00,3.00,Generic,"Battery protection <3.3V/cell"
+
+Mechanical - Structure,Acrylic Sheet 3mm,Clear or black 30×40cm,3,10.00,30.00,Local hardware / TAP Plastics,"Laser cut or manual cutting"
+Mechanical - Alternative,Aluminum Sheet 2mm,30×40cm,2,15.00,30.00,Local hardware,"Stronger alternative to acrylic"
+Mechanical - 3D Printing,PLA Filament,1kg spool,1,20.00,20.00,Generic brand,"For printed components"
+Mechanical - Brackets,Aluminum L-Bracket,Servo mounting various sizes,24,1.00,24.00,Generic,"Can be 3D printed instead"
+Mechanical - Rods,Aluminum Rod 6mm dia,1 meter length,1,8.00,8.00,Local hardware,"Leg segments, cut to length"
+Mechanical - Feet,Rubber Foot Pads,15-20mm diameter,6,0.50,3.00,Generic,"Traction, shock absorption"
+
+Fasteners,M3 Screw Set,Various lengths 6-20mm 100pcs,1,10.00,10.00,Generic,"Stainless steel preferred"
+Fasteners,M3 Nut Set,100pcs,1,3.00,3.00,Generic,
+Fasteners,M3 Standoff Set,15mm + 20mm 20pcs,1,5.00,5.00,Generic,"Board mounting"
+Fasteners,M2.5 Screw + Nut,For Raspberry Pi,1,2.00,2.00,Generic,"Included with some Pi cases"
+
+Electronics - Wiring,Wire Kit 22-26 AWG,Stranded multi-color,1,12.00,12.00,Generic,"For signal connections"
+Electronics - Wiring,Power Wire 16 AWG,Red + Black 5 meters,1,8.00,8.00,Generic,"High current connections"
+Electronics - Wiring,Dupont Jumper Wires,M-M M-F F-F 120pcs,1,5.00,5.00,Generic,"Prototyping connections"
+Electronics - Wiring,Servo Extension Cables,30cm 10pcs,1,8.00,8.00,Generic,"Extend servo reach"
+Electronics - Resistors,Resistor Kit,1kΩ 2kΩ 4.7kΩ 220Ω 100pcs,1,5.00,5.00,Generic,"Voltage dividers, LED current limiting"
+Electronics - Diodes,Schottky Diode 1N5822,3A 40V 10pcs,1,2.00,2.00,Generic,"Reverse polarity protection"
+Electronics - Perfboard,Perfboard PCB,9×15cm,2,3.00,6.00,Generic,"Power distribution board"
+Electronics - LEDs,LED Assortment 5mm,Red Green Blue 30pcs,1,3.00,3.00,Generic,"Status indicators"
+Electronics - Buzzer,Active Buzzer 5V,Piezo type,1,2.00,2.00,Generic,"Audio feedback"
+
+Cooling,Cooling Fan 5V,40mm×40mm×10mm,1,5.00,5.00,Generic,"Raspberry Pi cooling"
+Cooling,Heatsink Set,For Raspberry Pi CPU,1,3.00,3.00,Generic,"Usually included with Pi"
+
+Adhesives & Misc,Loctite Threadlocker Blue,Medium strength 5ml,1,8.00,8.00,Loctite,"Prevents screw loosening"
+Adhesives & Misc,Hot Glue Gun + Sticks,Standard size,1,10.00,10.00,Generic,"Wire management"
+Adhesives & Misc,Cable Ties,Various sizes 100pcs,1,5.00,5.00,Generic,"Cable management"
+Adhesives & Misc,Double-sided Tape,Heavy duty foam,1,5.00,5.00,3M,"Component mounting"
+Adhesives & Misc,Velcro Straps,Battery securing,2,3.00,6.00,Generic,"Removable battery mounting"
+
+Tools (if needed),Soldering Iron Kit,Temperature controlled 60W,1,30.00,30.00,Generic,"For permanent connections"
+Tools (if needed),Multimeter,Digital DMM,1,20.00,20.00,Generic,"Voltage/current testing"
+Tools (if needed),Wire Stripper/Cutter,20-30 AWG,1,12.00,12.00,Generic,"Wire preparation"
+Tools (if needed),Screwdriver Set,Phillips + Flat,1,15.00,15.00,Generic,"Assembly"
+Tools (if needed),Hex Key Set,Metric 1.5-6mm,1,8.00,8.00,Generic,"Servo adjustment"
+Tools (if needed),Helping Hands,Third-hand soldering aid,1,10.00,10.00,Generic,"Soldering assistance"
+
+,,,,,,,
+,,,SUBTOTAL COMPONENTS,,,572.00,,
+,,,SUBTOTAL TOOLS (optional),,,95.00,,
+,,,GRAND TOTAL,,,667.00,,
+,,,,,,,
+,,,BUDGET ESTIMATE,,,550-650,,Without tools if lab equipped
+
+Notes:,,,,,,,
+,"Prices are estimates based on 2024 market rates and may vary by supplier, location, and bulk discounts",,,,,
+,Check university lab for available tools and components before purchasing,,,,,
+,Some suppliers: Amazon DigiKey Mouser SparkFun Adafruit AliExpress (budget option with longer shipping),,,,,
+,"3D printing cost depends on lab access; commercial services charge $50-100 for all parts",,,,,
+,LiPo battery shipping may have restrictions; check local RC hobby stores,,,,,

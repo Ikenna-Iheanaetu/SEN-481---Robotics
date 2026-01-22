@@ -9,7 +9,7 @@ The **Autonomous Fire and Smoke Detection Spider Robot** is a 4-legged (quadrupe
 ![Robot Status](https://img.shields.io/badge/Status-In%20Development-orange)
 
 
-![Circuit daigram](circuitdiagram.png)
+![Circuit daigram](Circuitdiagram.png)
 
 ---
 
@@ -24,6 +24,8 @@ The **Autonomous Fire and Smoke Detection Spider Robot** is a 4-legged (quadrupe
 
 ---
 
+
+![internal Circuit Diagram](Circuitdiagram-1.png)
 ## ⚙️ Hardware Overview
 
 | Component | Description | Quantity |
